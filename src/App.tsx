@@ -1,4 +1,4 @@
-import React from 'react';
+
 import UserSearch from './state/UserSearch';
 
 function App() {

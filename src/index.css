@@ -16,3 +16,17 @@ code {
 body {
   margin-top: 20px;
 }
+
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.age {
+  font-size: 1.5em;
+  color: #666;
+  text-align: center;
+}

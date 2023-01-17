@@ -20,10 +20,10 @@ const UserSearch: React.FC = () => {
         //search .slice(0, name.length) to see if it matches
         //if it does, return the user
         //toUpperCase() to make it case insensitive
-
-
-        if (user.name.slice(0, name.length).toLowerCase() === name) {
+        if (user.name.slice(0, name.length).toLowerCase() === name ) {
           return name;
+        } else {
+          return undefined;
         }
       });
 
